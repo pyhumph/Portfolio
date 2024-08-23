@@ -1,0 +1,15 @@
+<svg width="150" height="70" xmlns="http://www.w3.org/2000/svg">
+  <!-- Text Element -->
+  <text x="48" y="30" fill="black" font-family="Poppins" font-size="30" font-weight="bold">HD</text>
+
+  <!-- Underline/Cross Y Element -->
+  <path d="M95 35C95 34.3438 95.9096 33.53 96.9493 33.6459L101.251 34.136C105.227 34.5794 108.591 31.226 108.161 27.2483C107.713 23.1161 103.434 20.5622 99.5844 22.1306L70.4171 34.0151C69.2629 34.4854 68 33.6363 68 32.39Z" fill="url(#paint0_linear_2164_71)"/>
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="paint0_linear_2164_71" x1="136.358" y1="7.62354" x2="122.281" y2="52.8563" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DF8908"/>
+      <stop offset="1" stop-color="#B415FF"/>
+    </linearGradient>
+  </defs>
+</svg>
