@@ -12,7 +12,7 @@ function Experience() {
       >
         Experience
       </motion.h1>
-      <div className="">
+      <div className="tracking-wide">
         {EXPERIENCES.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
