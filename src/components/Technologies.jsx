@@ -4,7 +4,7 @@ import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -21,7 +21,7 @@ const iconVariants = (duration) => ({
 
 function Technologies() {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div className="border-b border-neutral-900 pb-24">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

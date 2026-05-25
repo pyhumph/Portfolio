@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div className="border-b border-neutral-900 pb-20">
+    <div id="contact" className="scroll-mt-20 border-b border-neutral-900 pb-20">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -29,7 +29,7 @@ function Contact() {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="#" className="border-b">
+        <a href={`mailto:${CONTACT.email}`} className="border-b">
           {CONTACT.email}
         </a>
       </div>
