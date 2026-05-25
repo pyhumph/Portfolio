@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 h-10" src={logo} alt="Humphrey David logo" />
+        <img className="mx-2 h-16" src={logo} alt="Humphrey David logo" />
       </div>
       <div className="flex items-center gap-6">
         <ul className="hidden gap-6 text-sm tracking-wide md:flex">
