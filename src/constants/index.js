@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import giccs from "../assets/projects/giccs-website-front-view.png";
+import youthtech from "../assets/projects/youth-website-front-view.png";
+import itskasim from "../assets/projects/itskasim-website-front-view.png";
+import infinitytrails from "../assets/projects/infinitytrails-website-front-view.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a strong foundation in building dynamic, responsive web applications end-to-end. I work across the stack with JavaScript, React, and Next.js on the front end, and Node.js, Python, and SQL/NoSQL databases on the back end. My goal is to leverage my expertise to create innovative, user-centric solutions that enhance user experiences and contribute to business growth.`;
 
@@ -24,32 +24,36 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "GICCS Official Website",
+    image: giccs,
+    link: "https://giccs.or.tz/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Official website for Global Integrated Charitable Community Services (GICCS), a registered Tanzanian NGO running sustainable programs across education, healthcare, environmental conservation, and economic empowerment.",
+    technologies: ["React", "Vite", "Tailwind CSS"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Youth Tech",
+    image: youthtech,
+    link: "https://youthtechtz.or.tz/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Official website for Youth Tech, a Tanzanian NGO bridging the digital divide by equipping youth — especially children and women — with skills in software development, cybersecurity, web design, AI, and programming.",
+    technologies: ["React", "Vite", "Tailwind CSS", "Lucide React"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Its Kasim Production",
+    image: itskasim,
+    link: "https://itskasimproduction.com/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Portfolio and creative services website for Its Kasim Production, covering photography, videography, graphics design, web design, PA system rental, and event decoration. Includes an image gallery, multiple contact forms, and an admin dashboard for content management.",
+    technologies: ["React", "React Router", "Firebase", "EmailJS", "Tailwind CSS", "Framer Motion"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Infinity Trails",
+    image: infinitytrails,
+    link: "https://infinitytrailsafrica.com/",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Comprehensive tour and safari website for Infinity Trails, with 8 fully-functional pages covering safaris, day trips, destinations, gallery, and blog. Mobile-first responsive design with rich dynamic content, smooth animations, and a modular component architecture.",
+    technologies: ["React", "Vite", "Tailwind CSS", "React Router", "Framer Motion", "Lucide React", "Keen Slider"],
   },
 ];
 

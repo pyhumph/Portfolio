@@ -20,32 +20,55 @@ function Projects() {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/3"
             >
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              {project.link ? (
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="mb-6 w-full rounded transition-opacity hover:opacity-80"
+                  />
+                </a>
+              ) : (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="mb-6 w-full rounded"
+                />
+              )}
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className="w-full max-w-xl lg:w-2/3 lg:pl-8"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <h6 className="mb-2 font-semibold">
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="transition-colors hover:text-purple-500"
+                  >
+                    {project.title}
+                  </a>
+                ) : (
+                  project.title
+                )}
+              </h6>
               <p className="mb-4 text-neutral-800">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-800 px-2 py-1 text-sm font-medium text-purple-500"
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap gap-2">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="rounded bg-neutral-800 px-2 py-1 text-sm font-medium text-purple-500"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
