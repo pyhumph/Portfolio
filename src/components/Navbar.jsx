@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
+  { label: "Tech Stack", href: "#tech-stack" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },

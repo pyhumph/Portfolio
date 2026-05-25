@@ -3,21 +3,33 @@ import youthtech from "../assets/projects/youth-website-front-view.png";
 import itskasim from "../assets/projects/itskasim-website-front-view.png";
 import infinitytrails from "../assets/projects/infinitytrails-website-front-view.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a strong foundation in building dynamic, responsive web applications end-to-end. I work across the stack with JavaScript, React, and Next.js on the front end, and Node.js, Python, and SQL/NoSQL databases on the back end. My goal is to leverage my expertise to create innovative, user-centric solutions that enhance user experiences and contribute to business growth.`;
+export const HERO_CONTENT = `I am a full stack developer based in Arusha, Tanzania. I build web applications for real clients, teach programming to students, and am always working on something new.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `With hands-on experience building web applications from scratch for real clients, my work covers both frontend and backend — I have built systems using React, Node.js, MySQL, and Firebase, and I am comfortable working across the full stack.
+
+Alongside my development work, I teach Python and Scratch programming to students at The School of St Jude, which has strengthened how I explain technical concepts clearly and patiently. I also handle digital marketing and IT consulting for small businesses in Arusha.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2023",
     role: "Full Stack Developer",
     company: "3TS",
-    description: `
-      Designed and developed user interfaces for web applications using Next.js and React, focusing on creating seamless and engaging user experiences. Collaborated closely with backend developers to ensure efficient integration of frontend components with Node.js APIs. Implemented responsive designs across different devices and optimized frontend performance, reducing load times by 20%.
-      
-      Spearheaded the migration of legacy systems to modern web technologies, improving maintainability and scalability. Played a key role in project planning and execution, contributing to the successful delivery of several high-impact projects on time and within budget. Mentored junior developers, fostering a collaborative and knowledge-sharing environment.
-    `,
-    technologies: ["HTML", "CSS", "JavaScript", "Next.js", "MySQL", "PHP", "Node.js", "React"],
+    description: `Worked on frontend development for web applications using React and Next.js. Built and styled user interfaces, integrated with Node.js APIs, and contributed to projects focused on responsive and functional web experiences.`,
+    technologies: ["JavaScript", "React", "Next.js", "Node.js"],
+  },
+  {
+    year: "2024 – Present",
+    role: "Programming Instructor",
+    company: "The School of St Jude",
+    description: `Run a weekly Computer Literacy Club teaching Python programming to secondary students and Scratch visual programming to primary students. Deliver three sessions per week across different age groups and skill levels. Also instruct students in graphic design using Adobe applications.`,
+    technologies: ["Python", "Scratch", "Adobe Creative Suite"],
+  },
+  {
+    year: "2025",
+    role: "IT Instructor",
+    company: "JR Institute of Information Technology (JRIIT)",
+    description: `Deliver practical IT training covering Microsoft Office, programming fundamentals, networking basics, and IT troubleshooting. Guide students through hands-on projects to build real-world skills.`,
+    technologies: ["Microsoft Office", "Networking", "Programming", "IT Troubleshooting"],
   },
 ];
 
@@ -60,5 +72,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Sanawari Arusha, Tanzania ",
   phoneNo: "+255 612 958 641 ",
-  email: "humphrey.davi.dev@gmail.com",
+  email: "humphrey.david.dev@gmail.com",
 };
