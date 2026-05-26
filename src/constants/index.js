@@ -71,6 +71,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Sanawari Arusha, Tanzania ",
-  phoneNo: "+255 612 958 641 ",
+  phoneNo: "+255 742 021 983 ",
   email: "humphrey.david.dev@gmail.com",
 };
