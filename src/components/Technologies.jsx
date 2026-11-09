@@ -12,6 +12,7 @@ import {
   SiFlutter,
   SiFlask,
   SiDjango,
+  SiDocker,
 } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs, FaGitAlt } from "react-icons/fa";
@@ -22,6 +23,7 @@ const TECHNOLOGIES = [
   { name: "Next.js", Icon: TbBrandNextjs, color: "", duration: 3 },
   { name: "Node.js", Icon: FaNodeJs, color: "text-green-500", duration: 6 },
   { name: "Express", Icon: SiExpress, color: "text-neutral-900", duration: 3.4 },
+  { name: "Docker", Icon: SiDocker, color: "text-blue-500", duration: 3.3 },
   { name: "Redis", Icon: DiRedis, color: "text-red-700", duration: 2 },
   { name: "Python", Icon: SiPython, color: "text-yellow-400", duration: 3.5 },
   { name: "Django", Icon: SiDjango, color: "text-green-700", duration: 4.4 },

@@ -3,6 +3,7 @@ import youthtech from "../assets/projects/youth-website-front-view.png";
 import itskasim from "../assets/projects/itskasim-website-front-view.png";
 import infinitytrails from "../assets/projects/infinitytrails-website-front-view.png";
 import jriit from "../assets/projects/project-5.png";
+import kitulo from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a full stack developer based in Arusha, Tanzania. I build web applications for real clients, teach programming to students, and am always working on something new.`;
 
@@ -50,6 +51,22 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
+  {
+    title: "Kitulo House Hotel",
+    image: kitulo,
+    link: "https://kitulohouse.com/",
+    description:
+      "Marketing site for Kitulo House Hotel on the green edge of Arusha, built on the Softly design system — slow, tactile, and minimal. Multi-route SPA with a full room catalogue, film hero, experience scroll, bento gallery, live weather, currency switcher, styled maps, and booking inquiries. Per-route SEO and build-time Hotel JSON-LD keep previews and search metadata accurate.",
+    technologies: [
+      "React 19",
+      "Vite",
+      "Tailwind CSS v4",
+      "shadcn/ui",
+      "Framer Motion",
+      "Lucide React",
+      "React Router",
+    ],
+  },
   {
     title: "GICCS Official Website",
     image: giccs,
